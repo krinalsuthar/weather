@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(https://icon-library.com/images/weather-icon-gif/weather-icon-gif-22.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.card1,
+.info {
+  width: 40rem;
+  height: 20rem;
+  text-align: center;
+  margin: auto;
+  margin-top: 3rem;
+}
+.card1 {
+  position: relative;
+}
+.card1 img {
+  width: 30rem;
+  height: 35rem;
+  border-top: 2px solid rgb(172, 90, 172);
+  border-left: 2px solid rgb(172, 90, 172);
+  border-right: 2px solid rgb(201, 85, 105);
+  border-bottom: 2px solid rgb(201, 85, 105);
+  border-radius: 50px 0px;
+  opacity: 0.8;
+}
+
+input {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 20px;
+  text-align: center;
+}
+button {
+  width: 5rem;
+  height: 2rem;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+#img1 {
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 3rem;
+}
+.info h2,
+.timeDate,
+.info2 {
+  display: flex;
+  padding: 0px 40px;
+}
+.timeDate,
+.info2 {
+  display: flex;
+  justify-content: space-between;
+}
+.name,
+.info2 span {
+  margin-bottom: 40px;
+  font-size: 1.5rem;
+}
+.info2 {
+  margin-top: 30px;
+  padding: 0px 100px;
+}
+.info {
+  position: absolute;
+  transform: translate(-0%, -170%);
+}
+.name,
+.temp {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.temp {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.card1 {
+  display: none;
+}
+.input {
+  margin-top: 20px;
+  text-align: center;
+}
+.error {
+  margin-top: 200px;
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(49, 3, 3);
+  display: none;
+}
+h2 {
+  text-align: center;
+  margin-top: 10px;
+}
